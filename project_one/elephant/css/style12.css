@@ -1,0 +1,69 @@
+@import url("reset.css");
+@import url("swiper-3.3.1.min.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body, .box {
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+body {
+  font-size: 16px; }
+
+.header {
+  width: 100%;
+  height: .85rem;
+  border-top: 1px solid #35BE62;
+  background: #47C370;
+  display: -webkit-flex;
+  position: relative; }
+  .header img {
+    position: absolute;
+    width: .17rem;
+    height: .34rem;
+    left: .2rem;
+    top: 50%;
+    margin-top: -.17rem; }
+  .header span {
+    -webkit-flex: 1;
+    text-align: center;
+    line-height: .85rem;
+    color: #fff;
+    font-size: 18px; }
+
+.main {
+  width: 100%; }
+  .main ol {
+    width: 100%; }
+    .main ol li {
+      width: 100%;
+      margin-top: .3rem;
+      padding-left: .2rem; }
+      .main ol li i {
+        display: inline-block;
+        width: .2rem;
+        height: .2rem;
+        border-radius: 50%;
+        background: #AEAEAE;
+        margin: .3rem 0 0 .3rem;
+        position: relative; }
+        .main ol li i span {
+          width: .1rem;
+          height: .1rem;
+          position: absolute;
+          top: 50%;
+          margin-top: -.05rem;
+          left: 50%;
+          margin-left: -.05rem;
+          z-index: 999;
+          background: #46C26F;
+          display: none; }
+      .main ol li input {
+        display: inline-block;
+        width: 70%;
+        height: .5rem;
+        margin: .3rem 0 0 .3rem; }

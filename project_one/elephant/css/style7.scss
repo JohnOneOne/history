@@ -1,0 +1,171 @@
+@charset "utf-8";
+@import url("reset.css");
+@import url("swiper-3.3.1.min.css");
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+@mixin full{
+	width:100%;
+	height:100%;
+}
+@mixin flex($col:column){
+	display:-webkit-flex;
+	-webkit-flex-direction:$col;
+}
+html,body,.box{
+	@include full;
+	@include flex();
+}
+body{
+	font-size:16px;
+}
+@mixin pos($a:absolute){
+	position:$a;
+}
+.box{
+	overflow:hidden;
+}
+.header{
+	width:100%;
+	height:.9rem;
+	background:#47C370;
+	@include pos(relative);
+	display:-webkit-flex;
+	z-index:999;
+	img:nth-of-type(1){
+		width:.17rem;
+		height:.34rem;
+		@include pos;
+		top:50%;
+		margin-top:-.17rem;
+		left:.2rem;
+	}
+	img:nth-of-type(3){
+		@include pos;
+		width:.44rem;
+		height:.44rem;
+		top:50%;
+		margin-top:-.22rem;
+		right:.95rem;
+	}
+	img:nth-of-type(4){
+		@include pos;
+		width:.44rem;
+		height:.44rem;
+		top:50%;
+		margin-top:-.22rem;
+		right:.21rem;
+	}
+	input{
+		-webkit-flex:1;
+		width:60.7%;
+		height:.6rem;
+		@include pos;
+		left:17.2%;
+		top:50%;
+		margin-top:-.3rem;
+		font-size:15px;
+		border:none;
+		outline:none;
+		text-indent:2em;
+		border-radius:10px;
+	}
+	img:nth-of-type(2){
+		width:.35rem;
+		height:.36rem;
+		@include pos;
+		top:50%;
+		margin-top:-.18rem;
+		left:19%;
+		z-index:999;
+	}
+}
+.main{
+	width:100%;
+	-webkit-flex:1;
+	background:#F0F0F0;
+	height:530px;
+	.lb{
+		width:100%;
+		height:32%;
+		.swiper-wrapper{
+			width:100%;
+			height:100%;
+			li{
+				width:100%;
+				height:100%;
+			}
+			img{
+				width:100%;
+				height:100%;
+			}
+		}
+	}
+	h3{
+		width:100%;
+		height:.7rem;
+		line-height:.7rem;
+		padding-left:.2rem;
+	}
+	.dY{
+		display:-webkit-flex;
+		width:100%;
+		background:#fff;
+		li{
+			width:29.6%;
+			margin-left:.2rem;
+			text-align:center;
+			img{
+				width:100%;
+				height:100%;
+			}
+			small:nth-of-type(2){
+				color:#FE550A;
+				display:block;
+				margin-top:.15rem;
+			}
+		}
+	}
+	h4{
+		width:100%;
+		height:.7rem;
+		line-height:.7rem;
+		padding-left:.2rem;
+		margin-top:.2rem;
+		background:#fff;
+	}
+	.pic{
+		background:#fff;
+		display:-webkit-flex;
+		-webkit-flex-wrap:wrap;
+		dl{
+			width:29.6%;
+			margin-left:.2rem;
+			dt{
+				width:100%;
+			}
+			img{
+				width:100%;
+				height:100%;
+			}
+			dd{
+				text-align:center;
+				height:.8rem;
+				line-height:.8rem;
+			}
+		}
+		.btn{
+			width:92%;
+			height:.9rem;
+			text-align:center;
+			line-height:.9rem;
+			background:#33BD61;
+			margin:.4rem 4%;
+			border-radius:10px;
+			color:#fff;
+		}
+	}
+
+}

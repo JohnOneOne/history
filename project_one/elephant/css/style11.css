@@ -1,0 +1,108 @@
+@import url("reset.css");
+@import url("swiper-3.3.1.min.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body, .box {
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+body {
+  font-size: 16px; }
+
+.box {
+  overflow: hidden; }
+
+.header {
+  width: 100%;
+  height: .85rem;
+  border-top: 1px solid #35BE62;
+  background: #47C370;
+  display: -webkit-flex;
+  position: relative;
+  z-index: 9999; }
+  .header img {
+    position: absolute;
+    width: .17rem;
+    height: .34rem;
+    left: .2rem;
+    top: 50%;
+    margin-top: -.17rem; }
+  .header span {
+    -webkit-flex: 1;
+    text-align: center;
+    line-height: .85rem;
+    color: #fff;
+    font-size: 18px; }
+
+.main {
+  width: 100%;
+  -webkit-flex: 1;
+  height: 530px; }
+  .main .top {
+    width: 100%;
+    height: 41.8%;
+    background: #F0F0F0; }
+    .main .top dl {
+      width: 100%;
+      width: 100%;
+      display: -webkit-flex; }
+      .main .top dl dt {
+        width: 56.8%;
+        height: 3.88rem;
+        margin: .8rem 0 0 .2rem;
+        padding-bottom: .4rem; }
+        .main .top dl dt img {
+          width: 100%;
+          height: 100%; }
+      .main .top dl dd {
+        width: 40%;
+        margin-left: 5%;
+        margin-top: .8rem; }
+        .main .top dl dd p {
+          font-size: 15px;
+          color: #7D8780; }
+  .main .bottom {
+    background: #fff;
+    width: 100%; }
+    .main .bottom h3 {
+      width: 100%;
+      height: .8rem;
+      text-align: center;
+      line-height: .8rem;
+      margin-top: .3rem; }
+    .main .bottom p {
+      width: 50%;
+      margin: 0 auto;
+      height: 1px;
+      background: #33BD61;
+      font-size: 0; }
+    .main .bottom ul {
+      width: 100%;
+      display: -webkit-flex;
+      -webkit-flex-wrap: wrap; }
+      .main .bottom ul li {
+        width: 45%;
+        height: 2rem;
+        margin: .2rem 0 .05rem 3.33%; }
+        .main .bottom ul li img {
+          width: 100%;
+          height: 100%; }
+
+.footer {
+  width: 100%;
+  height: .97rem;
+  border-top: 1px solid #CCCCCC;
+  z-index: 999;
+  background: #fff;
+  font-size: 0; }
+  .footer a {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    font-size: 16px;
+    color: #333; }

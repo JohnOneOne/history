@@ -1,0 +1,1 @@
+var uu=new IScroll("#main");

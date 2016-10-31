@@ -1,0 +1,1 @@
+var cc=new IScroll("#main");

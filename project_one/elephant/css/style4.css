@@ -1,0 +1,88 @@
+@import url("reset.css");
+@import url("swiper-3.3.1.min.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body, .box {
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+body {
+  font-size: 16px; }
+
+.header {
+  width: 100%;
+  height: .9rem;
+  background: #47C370;
+  line-height: .9rem;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  z-index: 1000; }
+
+.box {
+  overflow: hidden; }
+
+.scroller {
+  width: 100%;
+  height: 700px; }
+
+.main {
+  width: 100%;
+  -webkit-flex: 1;
+  height: 531px; }
+  .main .main_ul {
+    width: 20%;
+    float: left; }
+    .main .main_ul li {
+      width: 100%;
+      text-align: center;
+      height: .6rem;
+      line-height: .6rem;
+      background: #F0F0F0;
+      border: 1px solid #D2D2D2;
+      border-left: none; }
+  .main .left {
+    width: 80%;
+    float: left;
+    padding: .2rem 0 0 .2rem; }
+    .main .left .banner {
+      width: 100%;
+      height: 13.5%;
+      padding-right: .2rem; }
+      .main .left .banner img {
+        width: 100%;
+        height: 100%; }
+    .main .left h3 {
+      width: 100%;
+      height: .7rem;
+      line-height: .7rem; }
+    .main .left ul {
+      width: 100%;
+      display: -webkit-flex;
+      -webkit-flex-wrap: wrap; }
+      .main .left ul li {
+        width: 46%;
+        height: 18%;
+        margin: 0 4% .2rem 0; }
+        .main .left ul li img {
+          width: 100%;
+          height: 100%; }
+
+.footer {
+  width: 100%;
+  height: .97rem;
+  border-top: 1px solid #CCCCCC;
+  z-index: 999;
+  background: #fff;
+  font-size: 0; }
+  .footer a {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    font-size: 16px;
+    color: #333; }

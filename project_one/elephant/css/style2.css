@@ -1,0 +1,206 @@
+@import url("reset.css");
+@import url("swiper-3.3.1.min.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body, .box {
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+body {
+  font-size: 16px; }
+
+.box {
+  overflow: hidden; }
+
+.header {
+  width: 100%;
+  height: .9rem;
+  background: #47C370;
+  position: relative;
+  display: -webkit-flex;
+  z-index: 999; }
+  .header span {
+    color: #fff;
+    position: absolute;
+    line-height: .9rem;
+    left: .19rem; }
+  .header img:nth-of-type(2) {
+    position: absolute;
+    width: .44rem;
+    height: .44rem;
+    top: 50%;
+    margin-top: -.22rem;
+    right: .95rem; }
+  .header img:nth-of-type(3) {
+    position: absolute;
+    width: .44rem;
+    height: .44rem;
+    top: 50%;
+    margin-top: -.22rem;
+    right: .21rem; }
+  .header input {
+    -webkit-flex: 1;
+    width: 60.7%;
+    height: .6rem;
+    position: absolute;
+    left: 17.2%;
+    top: 50%;
+    margin-top: -.3rem;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    text-indent: 2em;
+    border-radius: 10px; }
+  .header img:nth-of-type(1) {
+    width: .35rem;
+    height: .36rem;
+    position: absolute;
+    top: 50%;
+    margin-top: -.18rem;
+    left: 19%;
+    z-index: 999; }
+
+.main {
+  width: 100%;
+  -webkit-flex: 1;
+  height: 530px; }
+  .main .scroller {
+    width: 100%; }
+    .main .scroller .bo {
+      width: 100%;
+      heigth: 7.8%;
+      position: relative; }
+      .main .scroller .bo ul {
+        width: 100%;
+        height: 100%; }
+      .main .scroller .bo li {
+        width: 100%;
+        height: 100%; }
+        .main .scroller .bo li img {
+          width: 100%;
+          height: 100%; }
+      .main .scroller .bo .para1 {
+        position: absolute;
+        width: 52%;
+        height: 28.5%;
+        left: 24%;
+        bottom: .8rem;
+        text-align: center;
+        z-index: 999;
+        font-size: 18px;
+        line-height: 24px; }
+        .main .scroller .bo .para1 span {
+          color: #FE3803;
+          font-size: 15px; }
+    .main .scroller h3 {
+      width: 100%;
+      height: .64rem;
+      line-height: .64rem;
+      padding-left: .3rem;
+      font-weight: 600; }
+      .main .scroller h3 small {
+        font-size: 14px;
+        text-decoration: underline; }
+    .main .scroller .banner {
+      width: 100%;
+      height: 10.95%; }
+      .main .scroller .banner img {
+        width: 100%;
+        height: 100%; }
+    .main .scroller .near {
+      width: 100%;
+      padding: .3rem;
+      position: relative;
+      display: -webkit-flex; }
+      .main .scroller .near section {
+        line-height: 24px;
+        margin-left: .7rem; }
+    .main .scroller .wonderful {
+      width: 100%; }
+      .main .scroller .wonderful dl {
+        width: 25%;
+        text-align: center;
+        float: left; }
+        .main .scroller .wonderful dl dt {
+          width: .9rem;
+          height: .9rem;
+          margin: 0 auto; }
+          .main .scroller .wonderful dl dt img {
+            width: 100%;
+            height: 100%; }
+        .main .scroller .wonderful dl dd {
+          margin-top: .3rem; }
+    .main .scroller h4 {
+      width: 100%;
+      line-height: .64rem;
+      padding-left: .3rem;
+      font-weight: 600; }
+    .main .scroller .hot {
+      width: 100%;
+      height: 9.9%;
+      position: relative; }
+      .main .scroller .hot img {
+        width: 100%;
+        height: 100%; }
+      .main .scroller .hot em {
+        font-style: normal;
+        position: absolute;
+        width: 2rem;
+        text-align: center;
+        height: .6rem;
+        line-height: .6rem;
+        background: #3C495E;
+        color: #fff;
+        position: absolute;
+        top: .2rem;
+        left: .2rem;
+        border-radius: 10px; }
+      .main .scroller .hot section {
+        width: 1.7rem;
+        position: absolute;
+        right: 0rem;
+        bottom: .3rem; }
+        .main .scroller .hot section p {
+          width: 100%;
+          height: .5rem;
+          line-height: .5rem;
+          text-align: center; }
+          .main .scroller .hot section p:nth-of-type(1) {
+            color: #fff;
+            background: #FF7B2F; }
+          .main .scroller .hot section p:nth-of-type(2) {
+            color: #FF7B2F;
+            background: #fff; }
+    .main .scroller .hot_para {
+      width: 100%;
+      padding: .3rem .2rem;
+      line-height: 24px; }
+      .main .scroller .hot_para p:first-child {
+        font-size: 18px; }
+    .main .scroller .every_introduce {
+      width: 100%; }
+      .main .scroller .every_introduce img {
+        display: block;
+        width: 100%;
+        height: 15.6%; }
+        .main .scroller .every_introduce img:first-child {
+          margin-bottom: .3rem; }
+
+.footer {
+  width: 100%;
+  height: .97rem;
+  border-top: 1px solid #CCCCCC;
+  z-index: 999;
+  background: #fff;
+  font-size: 0; }
+  .footer a {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    font-size: 16px;
+    color: #333; }

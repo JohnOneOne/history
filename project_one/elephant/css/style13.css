@@ -1,0 +1,108 @@
+@import url("reset.css");
+@import url("swiper-3.3.1.min.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body, .box {
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+body {
+  font-size: 16px; }
+
+.header {
+  width: 100%;
+  height: .85rem;
+  border-top: 1px solid #35BE62;
+  background: #47C370;
+  display: -webkit-flex;
+  position: relative; }
+  .header img {
+    position: absolute;
+    width: .17rem;
+    height: .34rem;
+    left: .2rem;
+    top: 50%;
+    margin-top: -.17rem; }
+  .header span {
+    -webkit-flex: 1;
+    text-align: center;
+    line-height: .85rem;
+    color: #fff;
+    font-size: 18px; }
+
+.main {
+  -webkit-flex: 1;
+  width: 100%;
+  background: #F0F0F0; }
+  .main .btn {
+    width: 82%;
+    margin: .63rem 9% .63rem 9%;
+    font-size: 0; }
+    .main .btn span {
+      display: inline-block;
+      width: 50%;
+      height: .88rem;
+      text-align: center;
+      line-height: .88rem;
+      color: #fff;
+      font-size: 16px; }
+      .main .btn span:first-child {
+        background: #33BD61;
+        border-radius: 8px 0 0 8px; }
+      .main .btn span:last-child {
+        border: 1px solid #33BD61;
+        border-radius: 0 8px 8px 0;
+        border-left: none;
+        color: #979797; }
+  .main .tel_pwd {
+    width: 82%;
+    margin: 0 9% .63rem 9%;
+    position: relative; }
+    .main .tel_pwd input {
+      width: 100%;
+      height: .87rem;
+      background: #fff;
+      display: block;
+      border: none;
+      outline: none;
+      font-size: 15px;
+      text-indent: 2em; }
+      .main .tel_pwd input:nth-of-type(1) {
+        border-radius: 8px 8px 0 0; }
+      .main .tel_pwd input:nth-of-type(2) {
+        border-radius: 0 0 8px 8px; }
+    .main .tel_pwd img:nth-of-type(1) {
+      position: absolute;
+      top: .2rem;
+      left: .1rem; }
+    .main .tel_pwd img:nth-of-type(2) {
+      position: absolute;
+      top: 1.1rem;
+      left: .1rem; }
+    .main .tel_pwd small {
+      position: absolute;
+      right: .2rem;
+      bottom: .3rem;
+      color: #46C26F;
+      font-size: 17px; }
+  .main .lo_ce {
+    width: 82%;
+    margin: 0 9% .63rem 9%; }
+    .main .lo_ce p {
+      width: 100%;
+      height: .88rem;
+      text-align: center;
+      line-height: .88rem;
+      color: #fff; }
+      .main .lo_ce p:nth-of-type(1) {
+        background: #33BD61;
+        border-radius: 8px;
+        margin: .7rem 0 .3rem 0; }
+  .main .phone {
+    color: #46C26F;
+    margin: 1.5rem 0 0 .2rem; }
